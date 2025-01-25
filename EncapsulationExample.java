@@ -14,10 +14,10 @@ public class EncapsulationExample {
     
 
     public static void main(String[] args) {
-        EncapsulationExample person = new EncapsulationExample();
+        EncapsulationExample ex = new EncapsulationExample();
 
-                person.setName("John Doe");
-        System.out.println("Name: " + person.getName());
+                ex.setName("John Doe");
+        System.out.println("Name: " + ex.getName());
         
     }
 }
